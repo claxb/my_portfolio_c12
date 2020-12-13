@@ -3,10 +3,40 @@ margin: 0%;
 background: #EFEFBB;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+font-family: 'Poiret One', cursive;
 }
 
 .main-container {
+  height: 200px;
   display: flex;
   justify-content: center;
+}
+
+  h1 {
+  font-size: 100px;
+}
+
+.links {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+
+a.ex2:hover, a.ex2:active {
+  font-size: 150%;
+}
+
+a {
+  color:black;
+  font-size: 20px;
 }
